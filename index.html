@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Unvoice</title>
+
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-unvoice-blue">
+			<a class="navbar-brand" href="#">
+				<img
+					src="images/AppIconWithRect.png"
+					width="43"
+					height="43"
+					class="d-inline-block align-center"
+					alt="lol"
+				/>
+				<div class="brand">Unvoice</div>
+			</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#Howto">How It Works</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Privacy">Privacy</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Support">Support</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Download">Download</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="subpage" id="Welcome">
+				<div class="row">
+					<div class="col-lg-4">
+						<div id="demo">
+							<img src="images/UnvoiceDemo.gif" id="demo-video" />
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<h1 class="heading">Welcome to Unvoice</h1>
+						<p class="copy">
+							Unvoice is a utility that transcribes your Voice Messages to text.
+							Whenever you receive a Voice Message and cannot (or do not want
+							to) listen to it, you can hand it over to Unvoice and it gets
+							transcribed.
+						</p>
+						<p class="copy">
+							Just select a Voice Message you received in a messaging app and
+							share it with Unvoice. The Unvoice extension then handles the
+							transcription. You can even save your transcriptions so that you
+							have a written transcript of your Voice Messages.
+						</p>
+						<p class="copy">
+							And since we use the built in Speech Recognition feature of iOS,
+							your Voice Messages are handled securely and privately. Your Voice
+							Messages are not processed otherwise by us by any means and your
+							transcriptions do not leave your device!
+						</p>
+						<img
+							src="images/AppStoreBadge.svg"
+							alt=""
+							class="centered"
+							id="appstore"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="anchor" id="Howto"></div>
+			<div class="subpage" data-aos="fade-up">
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-8"><h1 class="heading">How It Works</h1></div>
+				</div>
+				<div class="row stepbystep">
+					<div class="col-md-4" data-aos="fade-right">
+						<img src="images/SelectMessage@2x.png" alt="" class="centered" />
+					</div>
+					<div class="col-md-8 centered" data-aos="fade-left">
+						<h2 class="sub-heading">Select Voice Message to transcribe</h2>
+						<p class="copy">
+							In your favorite Messaging App, select a Voice Message you want to
+							transcribe.
+						</p>
+
+						<p class="copy">
+							Selection is often enabled by long-pressing and clicking on "More"
+							or "Forward".
+						</p>
+
+						<p class="copy">
+							If all went well, you get a checkmark next to the message and have
+							the option to share it.
+						</p>
+					</div>
+				</div>
+				<div class="row stepbystep">
+					<div class="col-md-4" data-aos="fade-right">
+						<img src="images/ShareDialog@2x.png" alt="" class="centered" />
+					</div>
+					<div class="col-md-8 centered" data-aos="fade-left">
+						<h2 class="sub-heading">Share it with Unvoice</h2>
+						<p class="copy">
+							In the iOS Share Sheet, tap on the icon to share it with Unvoice.
+						</p>
+
+						<p class="copy">
+							Sometimes you have to enable the extension by clicking the „More“
+							button and then flipping the switch next to „Unvoice“.
+						</p>
+					</div>
+				</div>
+				<div class="row stepbystep">
+					<div class="col-md-4" data-aos="fade-right">
+						<img src="images/Transcribe@2x.png" alt="" class="centered" />
+					</div>
+					<div class="col-md-8 centered" data-aos="fade-left">
+						<h2 class="sub-heading">Transcribe</h2>
+						<p class="copy">
+							Your Voice Message gets transcribed and you can see the results
+							immediately.
+						</p>
+
+						<p class="copy">
+							The Voice Message gets transcribed by Apple’s own Speech
+							Recognition, built into iOS, which
+							<a
+								href="https://www.apple.com/ios/feature-availability/#quicktype-keyboard-dictation"
+								target="_blank"
+								>supports a multitude of languages</a
+							>
+							and handles your messages privately and securely.
+						</p>
+
+						<p class="copy">
+							Note: Since the Message has to be sent to Apple’s servers for the
+							transcription, you need a working connection to the Internet.
+						</p>
+					</div>
+				</div>
+				<div class="row stepbystep">
+					<div class="col-md-4" data-aos="fade-right">
+						<img src="images/HomeScreen@2x.png" alt="" class="centered" />
+					</div>
+					<div class="col-md-8 centered" data-aos="fade-left">
+						<h2 class="sub-heading">Look it up</h2>
+						<p class="copy">
+							After the transcription has finished, you get the option to save
+							it, so you can look it up later.
+						</p>
+
+						<p class="copy">
+							All your saved transcriptions are saved to the Unvoice App and can
+							be looked up, renamed and deleted later.
+						</p>
+
+						<p class="copy">
+							The transcriptions are stored locally and never leave your device!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="anchor" id="Privacy"></div>
+			<div class="subpage" data-aos="fade-up">
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-8"><h1 class="heading">Privacy</h1></div>
+					<div class="col-md-4" data-aos="fade-right">
+						<img src="images/Privacy.svg" alt="" class="centered" />
+					</div>
+					<div class="col-md-8" data-aos="fade-left">
+						<p class="copy">
+							<strong>
+								Unvoice does not collect any information about you, period.
+							</strong>
+						</p>
+
+						<p class="copy">
+							We believe that your Voice Messages belong to you, and only you.
+							It is one thing to even share messages that are meant for your
+							eyes only. But it is quite another thing to share something even
+							more personal like other people’s voice.
+						</p>
+
+						<p class="copy">
+							This is why we use Apple’s Speech Recognition technology, because
+							we share Apple’s vision that your private data should stay
+							private. Unvoice neither analyzes nor shares your Voice Messages
+							with any other than Apple.
+						</p>
+
+						<p class="copy">
+							In order to transcribe your Voice Messages, Unvoice uses the
+							built-in Speech Recognition feature of iOS. While some of the
+							Speech Recognition can be done on your device, oftentimes your
+							Voice Message needs to be sent off to Apple’s servers for the
+							transcription.
+						</p>
+
+						<p class="copy">
+							The transmission procedure is performed completely by the iOS
+							Speech Framework so that it is performed privately and securely.
+							You can read more about that in
+							<a href="https://www.apple.com/privacy/" target="_blank">
+								Apple’s Privacy Policy</a
+							>.
+						</p>
+
+						<p class="copy">
+							Before Voice Messages can be transcribed, they have to be
+							converted to an audio format that Apple’s Speech Framework can
+							process. This also happens locally on your device. The converted
+							audio file is stored temporarily and automatically deleted by iOS.
+						</p>
+
+						<p class="copy">
+							Your transcriptions only get saved if you choose to. They are
+							stored locally and do not leave your device.
+						</p>
+
+						<p class="copy">
+							Beyond the information Apple provides to developers that you can
+							decide to provide, Unvoice uses no third-party analytics
+							frameworks.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="anchor" id="Support"></div>
+			<div class="subpage" data-aos="fade-up">
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-8">
+						<h1 class="heading">Help and Support</h1>
+					</div>
+					<div class="col-md-4" data-aos="fade-right">
+						<img src="images/Help.svg" alt="" class="centered" />
+					</div>
+					<div class="col-md-8" data-aos="fade-left">
+						<p class="copy">
+							Whenever you encounter problems, unexpected crashes or have ideas
+							or feature requests, feel free to send me an eMail with all
+							necessary details (problem-description, screenshots, steps to
+							reproduce, etc.) to:
+						</p>
+
+						<p class="copy">
+							<a href="mailto:UnvoiceApp@gmail.com">UnvoiceApp@gmail.com</a>
+						</p>
+
+						<p class="copy">And we will try to respond as fast as I can! 😉</p>
+					</div>
+				</div>
+			</div>
+			<div class="anchor" id="Download"></div>
+			<div class="subpage" data-aos="fade-in" data-aos-duration="3000">
+				<div class="row">
+					<div class="col-12 text-center">
+						<h1 class="heading">Download Unvoice</h1>
+
+						<img src="images/AppIconWithRect.svg" alt="" class="centered" />
+
+						<p class="copy centered">
+							<strong>
+								Download Unvoice for iOS for FREE on the App Store and start
+								transcribing incoming Voice Messages.
+							</strong>
+						</p>
+						<img
+							src="images/AppStoreBadge.svg"
+							alt=""
+							class="centered"
+							id="appstore"
+						/>
+					</div>
+				</div>
+			</div>
+			<footer class="text-center">
+				<p>© 2019 Patryk Pekala. All Rights Reserved.</p>
+
+				<p>
+					Apple, the Apple logo and iPhone are trademarks of Apple Inc.,
+					registered in the U.S. and other countries and regions. App Store is a
+					service mark of Apple Inc.
+				</p>
+			</footer>
+		</div>
+
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>

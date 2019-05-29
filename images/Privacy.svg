@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="299.568" height="248.868" viewBox="0 0 299.568 248.868">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #259ff8;
+        stroke-width: 4px;
+      }
+
+      .cls-2, .cls-8 {
+        fill: #259ff8;
+      }
+
+      .cls-3, .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 8px;
+      }
+
+      .cls-6, .cls-8 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        filter: url(#Vereinigungsmenge_5);
+      }
+    </style>
+    <filter id="Vereinigungsmenge_5" x="0" y="0" width="299.568" height="248.868" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Privacy" transform="translate(-76.432 -2816.584)">
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 76.43, 2816.58)">
+      <path id="Vereinigungsmenge_5-2" data-name="Vereinigungsmenge 5" class="cls-1" d="M22.824,222.309C38.162,203.356,48.66,175.7,37.5,163.195,14.239,145.863,0,122.559,0,96.931,0,43.4,62.136,0,138.784,0S277.568,43.4,277.568,96.931s-62.136,96.927-138.784,96.927a191.373,191.373,0,0,1-53.344-7.419c-7.349,5.216-57.22,40.432-64.143,40.428C19.94,226.866,20.233,225.511,22.824,222.309Z" transform="translate(11 6)"/>
+    </g>
+    <g id="Gruppe_307" data-name="Gruppe 307">
+      <g id="Gruppe_305" data-name="Gruppe 305">
+        <g id="Rechteck_66" data-name="Rechteck 66" class="cls-2" transform="translate(186 2906)">
+          <rect class="cls-6" width="80" height="67" rx="16"/>
+          <rect class="cls-7" x="2" y="2" width="76" height="63" rx="14"/>
+        </g>
+        <g id="Vereinigungsmenge_8" data-name="Vereinigungsmenge 8" class="cls-3" transform="translate(-230 5569)">
+          <path class="cls-6" d="M428-2655.032v-34h.023C428.62-2702.36,440.917-2713,456-2713s27.38,10.64,27.977,23.967H484v34Z"/>
+          <path class="cls-8" d="M 476.0002136230469 -2663.032470703125 L 476.0002136230469 -2688.0166015625 L 476.0002136230469 -2688.345703125 L 475.9854736328125 -2688.674560546875 C 475.5820007324219 -2697.67626953125 466.61669921875 -2704.999755859375 456.0003051757812 -2704.999755859375 C 445.2039489746094 -2704.999755859375 436.4254150390625 -2697.828857421875 436.01513671875 -2688.674560546875 L 436.0003967285156 -2688.365966796875 L 436.0003967285156 -2663.032470703125 L 476.0002136230469 -2663.032470703125 M 484.0002136230469 -2655.032470703125 L 428.0003967285156 -2655.032470703125 L 428.0003967285156 -2689.03271484375 L 428.0231628417969 -2689.03271484375 C 428.6204223632812 -2702.359619140625 440.9169311523438 -2712.999755859375 456.0003051757812 -2712.999755859375 C 471.0827941894531 -2712.999755859375 483.380126953125 -2702.359619140625 483.9774475097656 -2689.03271484375 L 484.0002136230469 -2689.03271484375 L 484.0002136230469 -2688.0166015625 L 484.0002136230469 -2655.032470703125 Z"/>
+        </g>
+      </g>
+      <g id="Gruppe_306" data-name="Gruppe 306" transform="translate(0 -6)">
+        <circle id="Ellipse_117" data-name="Ellipse 117" class="cls-4" cx="10.5" cy="10.5" r="10.5" transform="translate(216 2926)"/>
+        <line id="Linie_21" data-name="Linie 21" class="cls-5" y2="21" transform="translate(226.5 2936.5)"/>
+      </g>
+    </g>
+  </g>
+</svg>

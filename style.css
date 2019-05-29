@@ -1,0 +1,89 @@
+body {
+	padding-top: 5em;
+	font-family: 'Helvetica Neue';
+}
+
+.subpage {
+	margin-bottom: 10em;
+}
+
+.stepbystep {
+	margin-bottom: 150pt;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: white;
+}
+
+.bg-unvoice-blue {
+	background-color: #259ff8;
+}
+
+.brand {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.heading {
+	font-size: 55px;
+	margin-bottom: 1em;
+}
+
+.sub-heading {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.copy {
+	font-size: 18px;
+}
+
+.red {
+	background-color: red;
+}
+
+.centered {
+	display: block;
+	margin: 0 auto 1em auto;
+	max-width: 100%;
+}
+
+#appstore {
+	margin-top: 5em;
+}
+
+#download-section {
+	display: flex;
+	align-items: center;
+	width: 30%;
+}
+
+#demo {
+	width: 278px;
+	height: 548px;
+	margin: 0 auto;
+	background-image: url('images/iPhone8-Portrait-SpaceGray.png');
+	background-repeat: no-repeat;
+}
+
+#demo-video {
+	width: 228px;
+	margin-top: 71px;
+	margin-left: 25px;
+}
+
+footer {
+	color: #9b9b9b;
+	font-size: 16px;
+	font-weight: lighter;
+	margin: 5em 1em;
+}
+
+.anchor {
+	height: 100px;
+	background-color: white;
+}
+
+#Download {
+	margin-top: 5em;
+}
