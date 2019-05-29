@@ -58,6 +58,10 @@ body {
 	width: 30%;
 }
 
+#app-icon-large {
+	max-width: 200px;
+}
+
 #demo {
 	width: 278px;
 	height: 548px;
